@@ -1,0 +1,93 @@
+/* app/draw/palette/view/page.wxss */
+
+page {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 710rpx;
+    height: 330rpx;
+    margin:15rpx auto;
+}
+.slider{
+    width: 710rpx;
+    height: 70rpx;
+    margin: 0px auto;
+}
+
+.block{
+    width: 100rpx;
+    height: 100rpx;
+    border:2rpx solid rgb(216, 216, 216);
+    border-radius: 50%;
+    margin-left: 25rpx;
+}
+.container{
+    margin: 15rpx auto;
+    width: 710rpx;
+    position: relative;
+}
+
+slider{
+    margin: 25rpx 0;
+}
+.item{
+    width: 600rpx;
+    margin: 0 auto;
+}
+.tip{
+    position: absolute;
+    top: 60rpx;
+    left: 145rpx;
+    font-size: 0.9rem;
+    color: rgb(129, 129, 129);
+}
+.box{
+    position: relative;
+    float: left;
+    padding: 15rpx;
+}
+.coloritem{
+    position: relative;
+    display: inline-block;
+    width: 65rpx;
+    height: 65rpx;
+    border-radius: 10%;
+    border:4rpx solid white;
+    background-color: red;
+    box-shadow: 0rpx 0rpx 5rpx 2rpx rgba(112, 112, 112, 0.116);
+    margin-left: 10rpx;
+}
+.F{
+    width: 160rpx;
+    padding-left: 15rpx;
+    height: 30rpx;
+    font-size: 0.85rem;
+    color: rgb(150, 150, 150);
+    position: absolute;
+    left: 145rpx;
+    top: 5rpx;
+    border:2rpx solid rgb(214, 214, 214);
+    
+}
+.button{
+    position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    color: rgb(255, 255, 255);
+    background-color: #6aca7f;
+    box-shadow: 0rpx 0rpx 5rpx 2rpx rgba(112, 112, 112, 0.11);
+    border-radius: 10rpx;
+    right: 25rpx;
+    font-size: 0.9rem;
+}
+.button:active {
+    background-color: #9ae7ab;
+}
